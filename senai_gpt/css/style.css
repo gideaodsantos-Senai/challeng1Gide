@@ -84,20 +84,31 @@ button{
     position: fixed;
     top: 20px;
     right: 20px;
+
     width: 60px;
     height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background-color: #272727;
     border-radius: 50%;
     border: none;
+
     color: #ffffff;
     cursor: pointer;
     font-size: 22px;
+
     z-index: 1000;
     transition: background-color 0.3s, transform 0.2s;
 }
 
-#toggle-mode:hover{
-    transform: scale(1.05);
+#toggle-mode i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
 }
 
 /* No dark mode */
